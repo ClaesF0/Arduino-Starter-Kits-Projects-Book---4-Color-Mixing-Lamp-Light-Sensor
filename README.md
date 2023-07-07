@@ -1,7 +1,7 @@
 # Arduino-Starter-Kits-Projects-Book---4-Color-Mixing-Lamp-Light-Sensor
 
 # Using a Tri-Color LED and three phototransistors, I've created a lamp that smoothly changes colors depending on external lighting conditions.
-
+```
 const int greenLEDPin = 9;
 const int redLEDPin = 10;
 const int blueLEDPin = 11;
@@ -55,3 +55,4 @@ analogWrite(redLEDPin, redValue);
 analogWrite(greenLEDPin, greenValue);
 analogWrite(blueLEDPin, blueValue);
 }
+```
